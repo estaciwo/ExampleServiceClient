@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ab2949d6-19f7-4ae4-a6af-8adc00116f3c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55659/AuthorBookService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AuthorBookService.wsdl" MetadataType="Wsdl" ID="e2629eef-065f-4b8a-ad9d-3455e08a9d1e" SourceId="1" SourceUrl="http://localhost:55659/AuthorBookService.svc?wsdl" />
+    <MetadataFile FileName="AuthorBookService.disco" MetadataType="Disco" ID="486f210d-7339-4733-acb4-10fbd204e66e" SourceId="1" SourceUrl="http://localhost:55659/AuthorBookService.svc?disco" />
+    <MetadataFile FileName="AuthorBookService.xsd" MetadataType="Schema" ID="87479bab-b0d4-4adf-89f7-0bb3576ba2e0" SourceId="1" SourceUrl="http://localhost:55659/AuthorBookService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AuthorBookService1.xsd" MetadataType="Schema" ID="e8aa7200-fe40-4eb8-97a0-e4610cc3e547" SourceId="1" SourceUrl="http://localhost:55659/AuthorBookService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AuthorBookService2.xsd" MetadataType="Schema" ID="3b5512ac-64a4-4364-ba2e-540d3d05053a" SourceId="1" SourceUrl="http://localhost:55659/AuthorBookService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AuthorBookService3.xsd" MetadataType="Schema" ID="05d6987e-b01e-461a-a70b-b43fb4cd9d8b" SourceId="1" SourceUrl="http://localhost:55659/AuthorBookService.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
